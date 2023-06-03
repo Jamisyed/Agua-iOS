@@ -21,8 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // (see `application:configurationForConnectingSceneSession` instead).
         //        guard let _ = (scene as? UIWindowScene) else { return }
         window?.overrideUserInterfaceStyle = .light
-        if let windowScene = scene as? UIWindowScene {
-            let window = UIWindow(windowScene: windowScene)
+        if let windowScene = scene as? UIWindowScene, let window = windowScene.windows.first {
             self.window = window
             AppManager.openController(with: LaunchOption.launch)
         }
