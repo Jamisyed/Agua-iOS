@@ -1,10 +1,11 @@
 import Alamofire
+import SwiftyJSON
 class APIClient: NSObject {
     // MARK: - Vars & Lets
     private let sessionManager: Session
     // MARK: - Public methods
-     var apiSucess = [200, 201, 202, 204]
-
+    var apiSucess = [200, 201, 202, 204]
+    
     func cancelAllRequest() {
         self.sessionManager.session.getAllTasks { (task) in
             task.forEach { $0.cancel() }
@@ -30,31 +31,32 @@ class APIClient: NSObject {
             handler(.failure(CustomError(message: "No network available, please try again later.", code: nil)))
             return
         }
+        print(path)
         self.sessionManager.request(path).validate()
             .responseJSON { (data) in
-            switch data.result {
-            case .success:
-                do {
-                    guard let jsonData = data.data else {
-                        throw  CustomError(message: nil, code: nil)
+                switch data.result {
+                case .success:
+                    do {
+                        guard let jsonData = data.data else {
+                            throw  CustomError(message: nil, code: nil)
+                        }
+                        if let code = data.response?.statusCode,
+                           !self.apiSucess.contains(code) {
+                            throw self.parseApiError(data: data.data)
+                        } else {
+                            let result = try JSONDecoder().decode(T.self, from: jsonData)
+                            handler(.success(result))
+                        }
+                    } catch {
+                        debugPrint(error)
+                        if let error = error as? CustomError {
+                            handler(.failure(error))
+                        }
+                        handler(.failure(self.parseApiError(data: data.data)))
                     }
-                    if let code = data.response?.statusCode,
-                        !self.apiSucess.contains(code) {
-                        throw self.parseApiError(data: data.data)
-                    } else {
-                        let result = try JSONDecoder().decode(T.self, from: jsonData)
-                        handler(.success(result))
-                    }
-                } catch {
-                    debugPrint(error)
-                    if let error = error as? CustomError {
-                        handler(.failure(error))
-                    }
+                case .failure:
                     handler(.failure(self.parseApiError(data: data.data)))
                 }
-            case .failure:
-                handler(.failure(self.parseApiError(data: data.data)))
-            }
             }
     }
     fileprivate func handleFileUpload<T: Codable>(_ upload: DataRequest,
@@ -67,7 +69,7 @@ class APIClient: NSObject {
                         throw  CustomError(message: nil, code: nil)
                     }
                     if let code = data.response?.statusCode,
-                        !self.apiSucess.contains(code) {
+                       !self.apiSucess.contains(code) {
                         throw self.parseApiError(data: data.data)
                     } else {
                         let result = try JSONDecoder().decode(T.self, from: jsonData)
@@ -116,6 +118,9 @@ class APIClient: NSObject {
     }
     // MARK: - Initialization
     init(sessionManager: Session) {
+        let configuration = URLSessionConfiguration.default
+        configuration.timeoutIntervalForResource = 120
+        let sessionManager = Session(configuration: configuration)
         self.sessionManager = sessionManager
     }
 }

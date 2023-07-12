@@ -31,6 +31,7 @@ PODS:
   - SDWebImage/Core (5.15.8)
   - SwiftEntryKit (2.0.0)
   - SwiftLint (0.52.2)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - SDWebImage
   - SwiftEntryKit
   - SwiftLint
+  - SwiftyJSON (~> 5.0)
 
 SPEC REPOS:
   trunk:
@@ -62,6 +64,7 @@ SPEC REPOS:
     - SDWebImage
     - SwiftEntryKit
     - SwiftLint
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
@@ -78,7 +81,8 @@ SPEC CHECKSUMS:
   SDWebImage: cb032eba469c54e0000e78bcb0a13cdde0a52798
   SwiftEntryKit: 61b5fa36f34a97dd8013e48a7345bc4c4720be9a
   SwiftLint: 1ac76dac888ca05cb0cf24d0c85887ec1209961d
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 5de00b484a3ee95e4c454d33689d41cf727c0fb5
+PODFILE CHECKSUM: 19c3079da2e96e41e69742a893005bda1e818561
 
 COCOAPODS: 1.12.1

@@ -13,6 +13,7 @@ import RealmSwift
 import RxRealmDataSources
 import Speech
 import SDWebImage
+import SwiftyJSON
 
 class AGASongListVC: AGABaseVC {
     @IBOutlet weak var viewBookmarkView: UIView!
@@ -360,9 +361,9 @@ extension AGASongListVC {
              viewModel.artistName = externalMetaData?
                  .spotify?.artists?[AGANumericConstants.zero].name ??
              model.metadata?.music?[AGANumericConstants.zero].artists?[AGANumericConstants.zero].name ?? ""
-             viewModel.vid = externalMetaData?.spotify?.track?.trackId ?? ""
+            viewModel.vid = externalMetaData?.spotify?.track?.trackId?.stringValue ?? ""
              viewModel.label = model.metadata?.music?[AGANumericConstants.zero].label ?? ""
-             viewModel.trackID = externalMetaData?.spotify?.track?.trackId ?? ""
+            viewModel.trackID = externalMetaData?.spotify?.track?.trackId?.stringValue ?? ""
              uttaranceVoice(viewModel.trackID,
                                       viewModel.artistName,
                                       viewModel.titleName,
@@ -457,3 +458,11 @@ extension AGASongListVC {
             }
     }
 }
+
+
+extension Int{
+    var stringValue: String {
+        return String(self)
+        }
+    }
+
