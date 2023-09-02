@@ -202,7 +202,7 @@
 		503CC48C27917D5900A88AE8 /* BookmarksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksVC.swift; sourceTree = "<group>"; };
 		503CC49627917D8700A88AE8 /* BookmarkList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookmarkList.storyboard; sourceTree = "<group>"; };
 		503CC4982792D0EF00A88AE8 /* BookMarksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarksViewModel.swift; sourceTree = "<group>"; };
-		503DB83624E2B124002D2803 /* Agua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503DB83624E2B124002D2803 /* AguaAli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AguaAli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		503DB83924E2B124002D2803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Agua/AppDelegate/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		503DB83D24E2B124002D2803 /* AGALoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGALoginVC.swift; sourceTree = "<group>"; };
 		503DB84224E2B126002D2803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -289,7 +289,7 @@
 		50A8665F278073D700BD4CE2 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		50A866622780740900BD4CE2 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		50A866642783114D00BD4CE2 /* AppUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefault.swift; sourceTree = "<group>"; };
-		50A8666A2783D95C00BD4CE2 /* AguaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AguaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A8666A2783D95C00BD4CE2 /* AguaAliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AguaAliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AFCC3A27AA785E008DF37F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		50AFCC3C27AA78AB008DF37F /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		50AFCC3E27AA78BA008DF37F /* ProfileHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileHeaderView.xib; sourceTree = "<group>"; };
@@ -467,8 +467,8 @@
 		503DB83724E2B124002D2803 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				503DB83624E2B124002D2803 /* Agua.app */,
-				50A8666A2783D95C00BD4CE2 /* AguaTests.xctest */,
+				503DB83624E2B124002D2803 /* AguaAli.app */,
+				50A8666A2783D95C00BD4CE2 /* AguaAliTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -923,9 +923,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		503DB83524E2B124002D2803 /* Agua */ = {
+		503DB83524E2B124002D2803 /* AguaAli */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 503DB84A24E2B126002D2803 /* Build configuration list for PBXNativeTarget "Agua" */;
+			buildConfigurationList = 503DB84A24E2B126002D2803 /* Build configuration list for PBXNativeTarget "AguaAli" */;
 			buildPhases = (
 				B35C915C59AA6B9EB589EEB8 /* [CP] Check Pods Manifest.lock */,
 				503DB83224E2B124002D2803 /* Sources */,
@@ -938,14 +938,14 @@
 			);
 			dependencies = (
 			);
-			name = Agua;
+			name = AguaAli;
 			productName = Agua;
-			productReference = 503DB83624E2B124002D2803 /* Agua.app */;
+			productReference = 503DB83624E2B124002D2803 /* AguaAli.app */;
 			productType = "com.apple.product-type.application";
 		};
-		50A866692783D95C00BD4CE2 /* AguaTests */ = {
+		50A866692783D95C00BD4CE2 /* AguaAliTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50A866702783D95D00BD4CE2 /* Build configuration list for PBXNativeTarget "AguaTests" */;
+			buildConfigurationList = 50A866702783D95D00BD4CE2 /* Build configuration list for PBXNativeTarget "AguaAliTests" */;
 			buildPhases = (
 				39F6F5B073B482DB1C9C3A6A /* [CP] Check Pods Manifest.lock */,
 				50A866662783D95C00BD4CE2 /* Sources */,
@@ -957,9 +957,9 @@
 			dependencies = (
 				50A8666F2783D95C00BD4CE2 /* PBXTargetDependency */,
 			);
-			name = AguaTests;
+			name = AguaAliTests;
 			productName = AguaTests;
-			productReference = 50A8666A2783D95C00BD4CE2 /* AguaTests.xctest */;
+			productReference = 50A8666A2783D95C00BD4CE2 /* AguaAliTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -981,7 +981,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 503DB83124E2B124002D2803 /* Build configuration list for PBXProject "Agua" */;
+			buildConfigurationList = 503DB83124E2B124002D2803 /* Build configuration list for PBXProject "AguaAli" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -994,8 +994,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				503DB83524E2B124002D2803 /* Agua */,
-				50A866692783D95C00BD4CE2 /* AguaTests */,
+				503DB83524E2B124002D2803 /* AguaAli */,
+				50A866692783D95C00BD4CE2 /* AguaAliTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1259,7 +1259,7 @@
 /* Begin PBXTargetDependency section */
 		50A8666F2783D95C00BD4CE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 503DB83524E2B124002D2803 /* Agua */;
+			target = 503DB83524E2B124002D2803 /* AguaAli */;
 			targetProxy = 50A8666E2783D95C00BD4CE2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1408,9 +1408,10 @@
 				CODE_SIGN_ENTITLEMENTS = Agua/Agua.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
-				DEVELOPMENT_TEAM = K7XJD79M6V;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PWANQTS8W;
 				INFOPLIST_FILE = Agua/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Agua Jami";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1421,7 +1422,7 @@
 					"$(PROJECT_DIR)/Agua/Utils/ACRLibrary/SDK",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.agua.aguapp1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agua.aguapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1441,9 +1442,10 @@
 				CODE_SIGN_ENTITLEMENTS = Agua/Agua.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
-				DEVELOPMENT_TEAM = K7XJD79M6V;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PWANQTS8W;
 				INFOPLIST_FILE = Agua/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Agua Jami";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1454,7 +1456,7 @@
 					"$(PROJECT_DIR)/Agua/Utils/ACRLibrary/SDK",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.agua.aguapp1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agua.aguapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1475,6 +1477,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PWANQTS8W;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
@@ -1483,7 +1486,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agua.app/Agua";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AguaAli.app/AguaAli";
 			};
 			name = Debug;
 		};
@@ -1496,6 +1499,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PWANQTS8W;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
@@ -1504,14 +1508,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agua.app/Agua";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AguaAli.app/AguaAli";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		503DB83124E2B124002D2803 /* Build configuration list for PBXProject "Agua" */ = {
+		503DB83124E2B124002D2803 /* Build configuration list for PBXProject "AguaAli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503DB84824E2B126002D2803 /* Debug */,
@@ -1520,7 +1524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		503DB84A24E2B126002D2803 /* Build configuration list for PBXNativeTarget "Agua" */ = {
+		503DB84A24E2B126002D2803 /* Build configuration list for PBXNativeTarget "AguaAli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503DB84B24E2B126002D2803 /* Debug */,
@@ -1529,7 +1533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50A866702783D95D00BD4CE2 /* Build configuration list for PBXNativeTarget "AguaTests" */ = {
+		50A866702783D95D00BD4CE2 /* Build configuration list for PBXNativeTarget "AguaAliTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50A866712783D95D00BD4CE2 /* Debug */,

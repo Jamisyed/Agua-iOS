@@ -20,6 +20,7 @@ target 'Agua' do
   pod 'Alamofire'
   pod 'IQKeyboardManagerSwift'
   pod 'NVActivityIndicatorView'
+  pod 'SwiftyJSON', '~> 5.0'
 
   target 'AguaTests' do
     inherit! :search_paths

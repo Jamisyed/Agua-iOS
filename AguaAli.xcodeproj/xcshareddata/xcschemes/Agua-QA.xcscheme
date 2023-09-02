@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "503DB83524E2B124002D2803"
-               BuildableName = "Agua.app"
-               BlueprintName = "Agua"
-               ReferencedContainer = "container:Agua.xcodeproj">
+               BuildableName = "AguaAli.app"
+               BlueprintName = "AguaAli"
+               ReferencedContainer = "container:AguaAli.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "503DB83524E2B124002D2803"
-            BuildableName = "Agua.app"
-            BlueprintName = "Agua"
-            ReferencedContainer = "container:Agua.xcodeproj">
+            BuildableName = "AguaAli.app"
+            BlueprintName = "AguaAli"
+            ReferencedContainer = "container:AguaAli.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -44,9 +44,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "50A866692783D95C00BD4CE2"
-               BuildableName = "AguaTests.xctest"
-               BlueprintName = "AguaTests"
-               ReferencedContainer = "container:Agua.xcodeproj">
+               BuildableName = "AguaAliTests.xctest"
+               BlueprintName = "AguaAliTests"
+               ReferencedContainer = "container:AguaAli.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      enableThreadSanitizer = "YES"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -67,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "503DB83524E2B124002D2803"
-            BuildableName = "Agua.app"
-            BlueprintName = "Agua"
-            ReferencedContainer = "container:Agua.xcodeproj">
+            BuildableName = "AguaAli.app"
+            BlueprintName = "AguaAli"
+            ReferencedContainer = "container:AguaAli.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -84,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "503DB83524E2B124002D2803"
-            BuildableName = "Agua.app"
-            BlueprintName = "Agua"
-            ReferencedContainer = "container:Agua.xcodeproj">
+            BuildableName = "AguaAli.app"
+            BlueprintName = "AguaAli"
+            ReferencedContainer = "container:AguaAli.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

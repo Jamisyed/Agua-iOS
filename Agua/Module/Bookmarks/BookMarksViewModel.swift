@@ -22,7 +22,10 @@ class BookMarksViewModel {
     var loadState = LoadMoreState.none
     func getListData<T: Codable>(route: APIRouter,
                                  handler: @escaping (Swift.Result<T, CustomError>) -> Void) {
+       
+        
         let apiManager = APIClient(sessionManager: Session())
+    
         apiManager.request(path: route) { (response: Swift.Result<T, CustomError>) in
             handler(response)
         }
