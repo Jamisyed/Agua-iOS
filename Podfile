@@ -1,13 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Agua' do
+target 'AguaAli' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Agua
-
-
+  # Pods for AguaAli
   pod 'SwiftLint'
   pod 'RxSwift'
   pod 'RxCocoa'
@@ -22,12 +20,13 @@ target 'Agua' do
   pod 'NVActivityIndicatorView'
   pod 'SwiftyJSON', '~> 5.0'
 
-  target 'AguaTests' do
+  target 'AguaAliTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
 end
+
 
 post_install do |installer|
   installer.generated_projects.each do |project|
