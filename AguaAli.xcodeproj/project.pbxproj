@@ -11,6 +11,7 @@
 		0632F8EB2522F57900075E02 /* AGASongListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632F8EA2522F57900075E02 /* AGASongListVC.swift */; };
 		0632F8EF2522FB7300075E02 /* AGASongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632F8ED2522FB7300075E02 /* AGASongTableViewCell.swift */; };
 		0632F8F02522FB7300075E02 /* AGASongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0632F8EE2522FB7300075E02 /* AGASongTableViewCell.xib */; };
+		206B20E07A2E857FC757D1CC /* Pods_AguaAliTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D26BB2B435B53A6DF0C91C /* Pods_AguaAliTests.framework */; };
 		500073A224EA198900713D91 /* AGAListenVoiceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500073A124EA198900713D91 /* AGAListenVoiceVM.swift */; };
 		500073A724EA2FA000713D91 /* AGAMusicTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500073A624EA2FA000713D91 /* AGAMusicTrack.swift */; };
 		500BB5EA27BA2B0C006D962E /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BB5E927BA2B0C006D962E /* EditProfileVC.swift */; };
@@ -118,7 +119,6 @@
 		50B98BCC27966AFE00DC0045 /* BookMarkSongsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B98BCB27966AFE00DC0045 /* BookMarkSongsListModel.swift */; };
 		50C64FCD24EAD3A0002D5071 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50779D0024E56A6B00946119 /* AudioToolbox.framework */; };
 		50C64FD024EAD3A2002D5071 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50779CFE24E56A5D00946119 /* AVFoundation.framework */; };
-		50C64FD224EAD3A4002D5071 /* Pods_Agua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3610F456333DFD7CA5FD9942 /* Pods_Agua.framework */; };
 		50C64FD424EAD3A5002D5071 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50779CFB24E56A2900946119 /* Security.framework */; };
 		50C6D29827A92CE100DDA97C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6D29227A92CE100DDA97C /* AuthManager.swift */; };
 		50C6D29927A92CE100DDA97C /* AddSongInPlayListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6D29327A92CE100DDA97C /* AddSongInPlayListModel.swift */; };
@@ -145,8 +145,7 @@
 		50EC69B324F0D90D003B8F69 /* open-sans.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 506BB76624E3C26500C70E40 /* open-sans.regular.ttf */; };
 		50EC69B424F0D90D003B8F69 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5048F23324E511D900D8AD95 /* OpenSans-ExtraBold.ttf */; };
 		50EC69B524F0D90D003B8F69 /* open-sans.semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 506BB76524E3C22A00C70E40 /* open-sans.semibold.ttf */; };
-		6E531BB07894D9CF13C2646B /* Pods_Agua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C67B1052A797163407188DD /* Pods_Agua.framework */; };
-		BEA3A3967B9DF7012671EC97 /* Pods_AguaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAB38CFF5F98BE42EA87025 /* Pods_AguaTests.framework */; };
+		AC050D80028B39383EB3AAEB /* Pods_AguaAli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2302EB3DBBE1218841ABF40 /* Pods_AguaAli.framework */; };
 		D63879B32773187B00FD90F6 /* Lexend-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D63879AA2773187A00FD90F6 /* Lexend-ExtraLight.ttf */; };
 		D63879B42773187B00FD90F6 /* Lexend-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D63879AB2773187A00FD90F6 /* Lexend-Regular.ttf */; };
 		D63879B52773187B00FD90F6 /* Lexend-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D63879AC2773187A00FD90F6 /* Lexend-Black.ttf */; };
@@ -174,8 +173,8 @@
 		0632F8ED2522FB7300075E02 /* AGASongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGASongTableViewCell.swift; sourceTree = "<group>"; };
 		0632F8EE2522FB7300075E02 /* AGASongTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AGASongTableViewCell.xib; sourceTree = "<group>"; };
 		065CD0E824FF5C3C00D0A34E /* Agua.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Agua.entitlements; sourceTree = "<group>"; };
-		2C67B1052A797163407188DD /* Pods_Agua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3610F456333DFD7CA5FD9942 /* Pods_Agua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9999FC803C2A046DD1A807 /* Pods-AguaAliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AguaAliTests.release.xcconfig"; path = "Target Support Files/Pods-AguaAliTests/Pods-AguaAliTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D2E2B085EA1E0F987A07E60 /* Pods-AguaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AguaTests.release.xcconfig"; path = "Target Support Files/Pods-AguaTests/Pods-AguaTests.release.xcconfig"; sourceTree = "<group>"; };
 		500073A124EA198900713D91 /* AGAListenVoiceVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGAListenVoiceVM.swift; sourceTree = "<group>"; };
 		500073A624EA2FA000713D91 /* AGAMusicTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGAMusicTrack.swift; sourceTree = "<group>"; };
@@ -322,7 +321,9 @@
 		50C9899D2777F7AE0013BE29 /* CompleteProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfileVC.swift; sourceTree = "<group>"; };
 		50C989A02779C8A20013BE29 /* WebKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitVC.swift; sourceTree = "<group>"; };
 		50D5BE5827D0B53900E4BD28 /* PlayAdvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAdvViewController.swift; sourceTree = "<group>"; };
+		B9D26BB2B435B53A6DF0C91C /* Pods_AguaAliTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AguaAliTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C057752534F8EDDABB55FA5E /* Pods-AguaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AguaTests.debug.xcconfig"; path = "Target Support Files/Pods-AguaTests/Pods-AguaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D0ED950FF26CC382C2DD4E /* Pods-AguaAliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AguaAliTests.debug.xcconfig"; path = "Target Support Files/Pods-AguaAliTests/Pods-AguaAliTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D63879AA2773187A00FD90F6 /* Lexend-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-ExtraLight.ttf"; sourceTree = "<group>"; };
 		D63879AB2773187A00FD90F6 /* Lexend-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Regular.ttf"; sourceTree = "<group>"; };
 		D63879AC2773187A00FD90F6 /* Lexend-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Black.ttf"; sourceTree = "<group>"; };
@@ -332,8 +333,10 @@
 		D63879B02773187A00FD90F6 /* Lexend-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Medium.ttf"; sourceTree = "<group>"; };
 		D63879B12773187B00FD90F6 /* Lexend-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Thin.ttf"; sourceTree = "<group>"; };
 		D63879B22773187B00FD90F6 /* Lexend-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-SemiBold.ttf"; sourceTree = "<group>"; };
-		DDAB38CFF5F98BE42EA87025 /* Pods_AguaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AguaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB68AEF5AAAA9C9324B1B455 /* Pods-AguaAli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AguaAli.release.xcconfig"; path = "Target Support Files/Pods-AguaAli/Pods-AguaAli.release.xcconfig"; sourceTree = "<group>"; };
 		E1574B46A2B9A25D49DF701B /* Pods-Agua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agua.debug.xcconfig"; path = "Target Support Files/Pods-Agua/Pods-Agua.debug.xcconfig"; sourceTree = "<group>"; };
+		E4D15EF952C42EB25715873B /* Pods-AguaAli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AguaAli.debug.xcconfig"; path = "Target Support Files/Pods-AguaAli/Pods-AguaAli.debug.xcconfig"; sourceTree = "<group>"; };
+		F2302EB3DBBE1218841ABF40 /* Pods_AguaAli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AguaAli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56F22FD6AD4DDA170D660E4 /* Pods-Agua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agua.release.xcconfig"; path = "Target Support Files/Pods-Agua/Pods-Agua.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -345,10 +348,9 @@
 				50779D0224E56B0300946119 /* libc++.tbd in Frameworks */,
 				50C64FD024EAD3A2002D5071 /* AVFoundation.framework in Frameworks */,
 				50779CFA24E567D900946119 /* libACRCloud_IOS_SDK.a in Frameworks */,
-				50C64FD224EAD3A4002D5071 /* Pods_Agua.framework in Frameworks */,
 				50C64FD424EAD3A5002D5071 /* Security.framework in Frameworks */,
 				50C64FCD24EAD3A0002D5071 /* AudioToolbox.framework in Frameworks */,
-				6E531BB07894D9CF13C2646B /* Pods_Agua.framework in Frameworks */,
+				AC050D80028B39383EB3AAEB /* Pods_AguaAli.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +358,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA3A3967B9DF7012671EC97 /* Pods_AguaTests.framework in Frameworks */,
+				206B20E07A2E857FC757D1CC /* Pods_AguaAliTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -902,8 +904,8 @@
 		A78EEEC7B511EA7536FCD702 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2C67B1052A797163407188DD /* Pods_Agua.framework */,
-				DDAB38CFF5F98BE42EA87025 /* Pods_AguaTests.framework */,
+				F2302EB3DBBE1218841ABF40 /* Pods_AguaAli.framework */,
+				B9D26BB2B435B53A6DF0C91C /* Pods_AguaAliTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -916,6 +918,10 @@
 				F56F22FD6AD4DDA170D660E4 /* Pods-Agua.release.xcconfig */,
 				C057752534F8EDDABB55FA5E /* Pods-AguaTests.debug.xcconfig */,
 				4D2E2B085EA1E0F987A07E60 /* Pods-AguaTests.release.xcconfig */,
+				E4D15EF952C42EB25715873B /* Pods-AguaAli.debug.xcconfig */,
+				DB68AEF5AAAA9C9324B1B455 /* Pods-AguaAli.release.xcconfig */,
+				D2D0ED950FF26CC382C2DD4E /* Pods-AguaAliTests.debug.xcconfig */,
+				3C9999FC803C2A046DD1A807 /* Pods-AguaAliTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -932,7 +938,7 @@
 				503DB83324E2B124002D2803 /* Frameworks */,
 				503DB83424E2B124002D2803 /* Resources */,
 				5048F22324E4EE3900D8AD95 /* ShellScript */,
-				9E3DDA7721B90180B9BFC7BF /* [CP] Embed Pods Frameworks */,
+				9CBC4BF37016C7E7DC534F74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1065,7 +1071,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AguaTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AguaAliTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1089,21 +1095,21 @@
 			shellPath = /bin/sh;
 			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n    ${PODS_ROOT}/SwiftLint/swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		9E3DDA7721B90180B9BFC7BF /* [CP] Embed Pods Frameworks */ = {
+		9CBC4BF37016C7E7DC534F74 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agua/Pods-Agua-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AguaAli/Pods-AguaAli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agua/Pods-Agua-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AguaAli/Pods-AguaAli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agua/Pods-Agua-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AguaAli/Pods-AguaAli-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B35C915C59AA6B9EB589EEB8 /* [CP] Check Pods Manifest.lock */ = {
@@ -1121,7 +1127,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Agua-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AguaAli-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1402,7 +1408,7 @@
 		};
 		503DB84B24E2B126002D2803 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1574B46A2B9A25D49DF701B /* Pods-Agua.debug.xcconfig */;
+			baseConfigurationReference = E4D15EF952C42EB25715873B /* Pods-AguaAli.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Agua/Agua.entitlements;
@@ -1436,7 +1442,7 @@
 		};
 		503DB84C24E2B126002D2803 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F56F22FD6AD4DDA170D660E4 /* Pods-Agua.release.xcconfig */;
+			baseConfigurationReference = DB68AEF5AAAA9C9324B1B455 /* Pods-AguaAli.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Agua/Agua.entitlements;
@@ -1470,7 +1476,7 @@
 		};
 		50A866712783D95D00BD4CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C057752534F8EDDABB55FA5E /* Pods-AguaTests.debug.xcconfig */;
+			baseConfigurationReference = D2D0ED950FF26CC382C2DD4E /* Pods-AguaAliTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1492,7 +1498,7 @@
 		};
 		50A866722783D95D00BD4CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D2E2B085EA1E0F987A07E60 /* Pods-AguaTests.release.xcconfig */;
+			baseConfigurationReference = 3C9999FC803C2A046DD1A807 /* Pods-AguaAliTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
