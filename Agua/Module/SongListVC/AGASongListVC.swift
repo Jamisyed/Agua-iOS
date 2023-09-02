@@ -140,7 +140,7 @@ class AGASongListVC: AGABaseVC {
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        resetAllComponents()
+       // resetAllComponents()
     }
     func  resetAllComponents() {
         self.startRecording = false
@@ -228,6 +228,7 @@ class AGASongListVC: AGABaseVC {
 extension AGASongListVC {
     private func acrSetup() {
         let config = ACRCloudConfig()
+    
         config.accessKey = ACRConstants.kAccessKey
         config.accessSecret = ACRConstants.kAccessSecret
         config.host = ACRConstants.kHost
